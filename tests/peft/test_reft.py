@@ -341,7 +341,3 @@ class TestReFTModelPredict(unittest.TestCase):
                 batch_size=1,
                 predict_path=f"{tempdir}/pred_result.json",
             )
-
-
-if __name__ == "__main__":
-    unittest.main()
